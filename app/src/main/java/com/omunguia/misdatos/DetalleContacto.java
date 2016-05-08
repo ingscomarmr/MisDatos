@@ -43,17 +43,20 @@ public class DetalleContacto extends AppCompatActivity {
         tvEmail.setText(email);
         tvDireView.setText(direccion);
 
-        Button btnEditar = (Button) findViewById(R.id.btnEditar);
+        /*Button btnEditar = (Button) findViewById(R.id.btnEditar);
         btnEditar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed(); //manda a traer a la actividad anterior que era la de editar datos
-                //Intent intEditarContacto = new Intent(DetalleContacto.this,MainActivity.class);
-                //startActivity(intEditarContacto);
-                finish(); //Finaliza la actividad
+
             }
-        });
+        });*/
 
+    }
 
+    public void onClickEditarDatos(View v){
+        onBackPressed(); //manda a traer a la actividad anterior que era la de editar datos
+        //Intent intEditarContacto = new Intent(DetalleContacto.this,MainActivity.class);
+        //startActivity(intEditarContacto);
+        finish(); //Finaliza la actividad
     }
 }

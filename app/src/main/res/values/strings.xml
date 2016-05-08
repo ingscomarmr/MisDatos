@@ -4,7 +4,7 @@
     <string name="et_fecha_nacimiento">Fecha de nacimiento</string>
     <string name="et_telefono">Télefono</string>
     <string name="et_email">Email</string>
-    <string name="et_direccion">Dirección Contacto</string>
+    <string name="et_direccion">Descripción de contacto</string>
     <string name="btn_siguiente">Siguiente</string>
 
     <!-- Segunda activity de detalles-->
@@ -12,6 +12,6 @@
     <string name="tv_fecha_nacimiento">Fecha de nacimiento: </string>
     <string name="tv_telefono">Télefono: </string>
     <string name="tv_email">Email: </string>
-    <string name="tv_direccion">Dirección de contacto:</string>
+    <string name="tv_direccion">Descripción de contacto:</string>
     <string name="btn_editar">Editar Datos</string>
 </resources>
